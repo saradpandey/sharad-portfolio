@@ -1,0 +1,140 @@
+.projects-section {
+  width: 100%;
+  background-color: var(--bg-secondary);
+}
+
+.projects-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.project-image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: var(--bg-tertiary);
+}
+
+.project-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.project-card:hover .project-image-wrapper img {
+  transform: scale(1.08);
+}
+
+.project-body {
+  padding: 1.5rem;
+}
+
+.proj-type {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.project-body h3 {
+  font-size: 1.25rem;
+  color: var(--text-main);
+  font-weight: 700;
+  margin: 0.35rem 0 0.75rem 0;
+}
+
+.proj-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  height: 68px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.proj-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.proj-tags span {
+  font-size: 0.75rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.proj-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.act-live {
+  flex: 1;
+  background-color: var(--primary);
+  color: white;
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: var(--transition);
+}
+
+.act-live:hover { background-color: var(--primary-hover); }
+
+.act-git {
+  flex: 1;
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: var(--transition);
+}
+
+.act-git:hover { background-color: var(--bg-secondary); }
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

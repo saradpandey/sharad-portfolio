@@ -1,0 +1,93 @@
+/* Terms.css */
+
+.terms-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px 8%;
+  background: #ffffff;
+  color: #1e293b;
+  font-family: "Poppins", sans-serif;
+}
+
+.terms-container {
+  max-width: 1000px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.terms-title {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0ea5e9;
+}
+
+.terms-updated {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.terms-container h2 {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #0f172a;
+  padding-left: 10px;
+}
+
+.terms-container p {
+  margin-top: 10px;
+  line-height: 1.8;
+  color: #334155;
+}
+
+.terms-container ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.terms-container ul li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.terms-container ul li::marker {
+  color: #0ea5e9;
+}
+
+.terms-signature {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.terms-signature p {
+  margin: 5px 0;
+  color: #475569;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .terms-section {
+    padding: 60px 5%;
+  }
+
+  .terms-container {
+    padding: 25px;
+  }
+
+  .terms-title {
+    font-size: 2rem;
+  }
+
+  .terms-container h2 {
+    font-size: 1.2rem;
+  }
+}
