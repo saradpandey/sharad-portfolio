@@ -49,7 +49,7 @@ export default function About() {
           </h2>
 
           <p className="about-text">
-            Hello! I'm Sharad Pandey, a passionate Frontend Developer and
+            Hello! I'm Sharad Pandey, a passionate Digital Solutions Consultant,  Web Developer, Frontend Developer and
             BCSIT student who enjoys creating modern, responsive,
             and user-friendly web applications.
           </p>
@@ -61,7 +61,7 @@ export default function About() {
           </p>
 
           <p className="about-text">
-            Alongside web development, I have experience working as a
+            Alongside web development and Digital Solutions Consultant , I have experience working as a
             Documentation Officer, where I developed strong organizational,
             communication, and problem-solving abilities.
           </p>

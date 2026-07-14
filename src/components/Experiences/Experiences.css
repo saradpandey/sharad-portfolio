@@ -1,11 +1,12 @@
 .experience-section {
   width: 100%;
-  background-color: var(--bg-secondary);
+  
 }
 
 .experience-wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+  
 }
 
 .timeline-container {

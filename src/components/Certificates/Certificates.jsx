@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './Certificates.css';
 
 import techx from '../../assets/TechX_Sharad pandey.jpg';
+import Broadwayinfosys from '../../assets/Broadwayinfosys_sharad pandey.png'
 
 const certificates = [
   {
@@ -10,9 +11,9 @@ const certificates = [
     file: techx,
   },
   {
-    title: 'TechX Participation Certificate',
-    issuer: 'TechX Event',
-    file: techx,
+    title: 'Broadwayinfosys Certificate',
+    issuer: 'Broadwayinfosys',
+    file: Broadwayinfosys,
   },
 ];
 

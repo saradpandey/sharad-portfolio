@@ -4,20 +4,24 @@ import './Experiences.css';
 export default function Experience() {
   const experiences = [
     {
-      role: 'Freelance Web Developer',
-      company: 'Self Employed',
-      period: '2026 - Present',
-      points: [
-        'Developed custom websites for clients across various industries.',
-        'Designed responsive user interfaces for desktop, tablet, and mobile devices.',
-        'Built portfolio websites, business websites, and landing pages.',
-        'Integrated contact forms, email services, and third-party APIs.',
-        'Optimized website performance, SEO, and page loading speed.',
-        'Maintained and updated existing websites based on client requirements.',
-        'Fixed bugs and improved website functionality.',
-        'Collaborated with clients to gather requirements and deliver solutions.',
-        'Implemented modern web technologies using React, JavaScript, and Bootstrap.',
-        'Provided technical support and website deployment services.'
+
+  role: 'UI/UX Designer & Digital Content Creator',
+  company: 'Freelance / Self Employed',
+  period: '2026 - Present',
+  points: [
+    'Designed modern UI/UX interfaces for websites, web applications, and digital products.',
+    'Created social media designs for platforms like Facebook, YouTube, Instagram, and other digital channels.',
+    'Designed professional thumbnails, banners, posters, and promotional graphics to improve user engagement.',
+    'Analyzed design problems and created user-friendly solutions based on user needs.',
+    'Improved digital experiences by focusing on usability, accessibility, and visual consistency.',
+    'Created wireframes, prototypes, and design concepts using modern design tools.',
+    'Designed branding materials including logos, social media posts, and marketing assets.',
+    'Collaborated with clients to understand requirements and transform ideas into creative solutions.',
+    'Applied design principles including typography, color theory, spacing, and visual hierarchy.',
+    'Optimized graphics and content designs for better performance across different platforms.',
+    'Researched user behavior and competitor designs to improve product experience.',
+    'Solved visual communication problems through creative and strategic design approaches.'
+  
       ]
     },
     {

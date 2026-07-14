@@ -8,21 +8,21 @@ export default function Projects() {
       title: 'NEPALIUM',
       type: 'E-commerce Website',
       desc: 'E-commerce website built with HTML, CSS, Bootstrap and JavaScript. Includes cart system and product search.',
-      tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+      tags: ['HTML', 'Tailwind', 'React','Bootstrap', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500&auto=format&fit=crop'
     },
     {
       title: 'Portfolio Website',
       type: 'Personal Portfolio',
       desc: 'My personal portfolio website built with React and Tailwind CSS.',
-      tags: ['React', 'Tailwind', 'JavaScript'],
+      tags: ['HTML', 'CSS', 'Bootstrap','Tailwind', 'React', 'JavaScript'],
       image: 'https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=500&auto=format&fit=crop'
     },
     {
-      title: 'Task Manager App',
+      title: 'University App',
       type: 'Web Application',
-      desc: 'A task management application built with React.',
-      tags: ['React', 'Tailwind', 'Firebase'],
+      desc: 'A University Web App is a web-based application that allows students, teachers, and administrators to manage academic and administrative activities online through a browser.',
+      tags: ['HTML', 'CSS', 'Bootstrap','Tailwind', 'React', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
       image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500&auto=format&fit=crop'
     }
   ];

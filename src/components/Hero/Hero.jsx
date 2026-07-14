@@ -23,10 +23,14 @@ import cvFile from '../../assets/Sharad_Pandey_CV.pdf';
 export default function Hero() {
 
   const roles = [
-    { text: "WEB Designer", color: "#a855f7" },
-    { text: "Frontend Developer", color: "#16a34a" },
-    { text: "Freelancer", color: "#3b82f6" },
-    { text: "BCSIT Student", color: "#f97316" }
+    
+  { text: "Digital Solutions Consultant", color: "#ec4899" },
+  { text: "Web Developer", color: "#14b8a6" },
+  { text: "Frontend Developer", color: "#16a34a" },
+  { text: "Freelancer", color: "#3b82f6" },
+  { text: "Designer", color: "#8b5cf6" },
+  { text: "BCSIT Student", color: "#f97316" }
+
   ];
 
   const [text, setText] = useState("");
@@ -47,7 +51,7 @@ export default function Hero() {
       setCounts((prev) => {
         const next = { ...prev };
 
-        if (next.exp < 1) next.exp += 1;
+        if (next.exp < 2) next.exp += 1;
         if (next.projects < 20) next.projects += 1;
         if (next.tech < 10) next.tech += 1;
         if (next.satisfaction < 100) next.satisfaction += 5;
@@ -143,7 +147,7 @@ export default function Hero() {
                 <FaFacebook />
               </a>
 
-              <a href="https://instagram.com/"
+              <a href="https://www.instagram.com/saradpandey78/"
                 target="_blank" rel="noreferrer">
                 <FaInstagram />
               </a>

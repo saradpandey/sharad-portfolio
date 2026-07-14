@@ -1,6 +1,6 @@
 .certificates-section {
   padding: 150px 8%; /* +20px bigger feel */
-  background: #fff;
+   background-color: var(--bg-secondary);
 }
 
 /* TITLE */

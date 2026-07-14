@@ -17,14 +17,14 @@ export default function Footer() {
           <h2 className="footer-logo">S.P</h2>
 
           <p className="footer-bio">
-            Frontend Developer | Freelancer | BCSIT Student.
+            Digital Solutions Consultant  | web Developer  | Frontend Developer | Freelancer | BCSIT Student.
             Building modern and responsive web applications
             with passion and dedication.
           </p>
 
           <div className="footer-socials">
             <a
-              href="https://wa.me/"
+              href="https://wa.me/9779749781949?text=Hi%20Sharad%20I%20want%20to%20connect"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sarad-pandey-7b8a4940a/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,7 +40,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/palpali.sarad/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,7 +48,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/saradpandey78/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -132,9 +132,8 @@ export default function Footer() {
         </p>
 
         <p>
-          Designed with{" "}
-          <span style={{ color: "#e11d48" }}>♥</span>
-          {" "}by Sharad Pandey
+          Designed & Develop{" "}
+                    {" "}by Sharad Pandey
         </p>
       </div>
     </footer>

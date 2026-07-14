@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Certificates from "./components/Certificates/Certificates.jsx";
 
+import Services from "./components/Services/Services.jsx";
 import PrivacyPolicy from "./components/Privatepolicy/PrivacyPolicy.jsx";
 import TermsConditions from "./components/Termsconditions/Termsconditions.jsx";
 
@@ -22,6 +23,8 @@ function HomePage() {
       <main>
         <Hero />
         <About />
+
+        <Services/>
         <Skills />
         <Experience />
         <Certificates />
