@@ -15,11 +15,8 @@ const certificates = [
     issuer: 'Broadwayinfosys',
     file: Broadwayinfosys,
   },
-  {
-    title: 'Broadwayinfosys Certificate',
-    issuer: 'Broadwayinfosys',
-    file: Broadwayinfosys,
-  },
+  
+   
 
 ];
 
