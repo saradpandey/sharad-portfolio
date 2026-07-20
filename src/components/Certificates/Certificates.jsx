@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Certificates.css';
 
 import techx from '../../assets/TechX_Sharad pandey.jpg';
-import Broadwayinfosys from '../../assets/Broadwayinfosys_sharad pandey.png'
+import Broadwayinfosys from '../../assets/Broadwayinfosys_Sharad pandey.png'
 
 const certificates = [
   {

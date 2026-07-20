@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
-import './navbar.css';
+import './Navbar.css';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
